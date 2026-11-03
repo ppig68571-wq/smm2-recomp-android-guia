@@ -14,7 +14,7 @@
 </div>
 
 > [!IMPORTANT]
-> Esta es una guía comunitaria, no un APK. Necesitas tu propia copia legal de *Super Mario Maker 2* y su actualización 3.0.3. El proyecto oficial indica que Android se compila desde el código fuente. Su documentación actual informa que Android ha arrancado en el emulador y que todavía no se ha probado en un teléfono físico. Consulta siempre el estado y las instrucciones oficiales antes de compilar.
+> Esta es una guía comunitaria, no un APK. El proyecto oficial documenta el uso de archivos del propio usuario y que Android se compila desde el código fuente. Su documentación actual informa que Android ha arrancado en el emulador y que todavía no se ha probado en un teléfono físico. Consulta también [`LEGAL.md`](LEGAL.md): esta guía no determina si extraer, compilar o usar esos archivos es lícito en tu caso.
 
 ## 🧭 Navegación
 
@@ -29,7 +29,7 @@
 
 ## 🎮 Qué es este paquete
 
-Paquete legal para compilar **SMM2 Recomp en Android arm64** desde tu propio dump de *Super Mario Maker 2* + update 3.0.3.
+Paquete comunitario para orientar la compilación de **SMM2 Recomp en Android arm64** con archivos del usuario correspondientes a *Super Mario Maker 2* + update 3.0.3.
 
 Incluye:
 
@@ -68,6 +68,7 @@ Antes de ejecutar los pasos, revisa [README oficial](https://github.com/smm2reco
 | `FAQ.md` | Respuestas a dudas comunes y solución de errores. |
 | `REPO.md` | Pasos y controles para preparar una publicación. |
 | `LICENSE.md` | Alcance de las licencias de la guía y del shim. |
+| `LEGAL.md` | Aviso de marcas, alcance y límites de la información legal. |
 | `vulkan-shim/` | Código fuente del shim, generador y pasos para compilarlo. |
 | `scripts/build_android.sh` | Wrapper opcional para generar y compilar el APK. |
 | `scripts/pgo.sh` | Experimento opcional de Profile Guided Optimization. |
@@ -88,7 +89,7 @@ Antes de ejecutar los pasos, revisa [README oficial](https://github.com/smm2reco
 - Un ordenador compatible con las instrucciones actuales del upstream; Linux/WSL2 es el camino descrito por esta guía.
 - Android SDK, NDK, JDK y dependencias en las versiones requeridas por el estado actual del proyecto.
 - Teléfono Android arm64 con Vulkan compatible, si vas a experimentar en hardware físico.
-- Dump legal de SMM2 base y update 3.0.3.
+- Archivos de SMM2 base y update 3.0.3 obtenidos y usados conforme a las normas y condiciones aplicables a tu situación.
 
 > [!WARNING]
 > No copies comandos a ciegas. El upstream cambia y esta guía comunitaria puede quedar desactualizada. Confirma versiones, rutas y objetivos de `make` en la documentación oficial antes de cada build.
@@ -100,12 +101,12 @@ Puedes copiar este mensaje y adjuntar el ZIP del paquete:
 ```markdown
 Vas a trabajar con el paquete `smm2-recomp-guia-legal` que está en esta carpeta. Lee primero `OPENCODE_PROMPT.md` completo; después lee `PROMPT.md`, `MODS.md` y `CHECKLIST.md`. Antes de ejecutar comandos, compara las instrucciones con la documentación oficial actual de SMM2 Recomp y señala cualquier diferencia.
 
-Mi objetivo es compilar SMM2 Recomp para Android arm64 desde mi propio dump legal de Super Mario Maker 2 + update 3.0.3, instalarlo en mi POCO X6 5G (Snapdragon 7s Gen 2, Adreno 710, 8 GB, Android 13+), configurar mi propia cuenta de OpenCourse World y, si te lo pido, preparar el repo público de esta guía.
+Mi objetivo es compilar SMM2 Recomp para Android arm64 usando los archivos propios requeridos para Super Mario Maker 2 + update 3.0.3, instalarlo en mi POCO X6 5G (Snapdragon 7s Gen 2, Adreno 710, 8 GB, Android 13+), configurar mi propia cuenta de OpenCourse World y, si te lo pido, preparar el repo público de esta guía. No emitas una conclusión sobre la legalidad de mi situación.
 
 Reglas:
 - Pídeme rutas locales del dump, de `prod.keys` y del firmware; no me pidas que pegue su contenido, el token de OCW ni archivos del juego.
 - No imprimas ni subas `prod.keys`, firmware, `ocw-config.json`, el token, el APK, `libsmm2game.so`, el juego ni el driver.
-- El APK es para mis dispositivos y no se comparte.
+- No publiques APKs, `libsmm2game.so`, archivos del juego, keys, firmware, tokens o archivos privados; esta instrucción no es una conclusión jurídica.
 - La guía informa que el proyecto oficial todavía no ha probado Android en un teléfono físico. Trata cualquier prueba en mi POCO como experimental; no prometas compatibilidad ni FPS.
 - Muéstrame el comando y explica qué modifica antes de ejecutarlo. Si algo falla, muéstrame el error completo y espera.
 
@@ -121,14 +122,14 @@ Este repositorio contiene documentación y código auxiliar. No debe contener ma
 - `ocw-config.json`, tokens, contraseñas o cookies.
 - Drivers binarios de terceros, logs privados o datos de usuario.
 
-Cada usuario debe obtener y usar sus propios archivos, respetar las licencias aplicables y las condiciones de los servicios que utilice. Esta guía no es asesoría legal ni está afiliada a Nintendo.
+No interpretes “tener tu propia copia” como una garantía de que extraer, modificar, compilar, instalar o usar los resultados esté permitido en tu jurisdicción. Revisa [`LEGAL.md`](LEGAL.md), las licencias, los avisos del proyecto upstream y los términos de los servicios. Esta guía no es asesoría legal ni está afiliada a Nintendo; tampoco puede garantizar que su uso evite reclamos o demandas.
 
 ## 📜 Licencias y créditos
 
-- La guía y sus scripts se ofrecen bajo CC BY 4.0, según `LICENSE.md`.
-- `vulkan-shim/` se ofrece bajo GPLv3, según `LICENSE.md`.
+- Las licencias declaradas para las contribuciones originales y sus límites están en `LICENSE.md`; los materiales de terceros conservan sus propias condiciones.
 - SMM2 Recomp mantiene su licencia y atribuciones en el [repositorio oficial](https://github.com/smm2recomp/smm2recomp).
 - *Super Mario Maker 2* es una marca de Nintendo. Este paquete no está afiliado ni respaldado por Nintendo.
+- Lee [`LEGAL.md`](LEGAL.md) antes de usar o redistribuir materiales.
 
 ## 🤝 Contribuir
 

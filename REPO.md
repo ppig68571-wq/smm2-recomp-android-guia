@@ -12,7 +12,7 @@ Este repo contiene **solo la guía, el prompt, el checklist, los mods de rendimi
 
 ## Descripción
 
-> Guía legal para compilar SMM2 Recomp en Android desde tu propio dump. Sin juego, keys, firmware ni tokens. Cada persona compila lo suyo con su copia legal.
+> Guía comunitaria independiente sobre SMM2 Recomp en Android. No contiene archivos del juego, keys, firmware ni tokens. No ofrece asesoría legal; consulta `LEGAL.md`.
 
 ## Estructura
 
@@ -27,6 +27,7 @@ Este repo contiene **solo la guía, el prompt, el checklist, los mods de rendimi
 ├── REPO.md
 ├── FAQ.md
 ├── LICENSE.md
+├── LEGAL.md
 ├── vulkan-shim/
 │   ├── README.md
 │   ├── shim.c
@@ -49,12 +50,12 @@ git init
 # Linux/WSL2/macOS:
 chmod +x scripts/*.sh
 
-git add .gitignore README.md PROMPT.md MODS.md OPENCODE_PROMPT.md CHECKLIST.md REPO.md FAQ.md LICENSE.md vulkan-shim scripts
+git add .gitignore README.md PROMPT.md MODS.md OPENCODE_PROMPT.md CHECKLIST.md REPO.md FAQ.md LICENSE.md LEGAL.md vulkan-shim scripts
 
 # Windows: después del git add, marcá los scripts como ejecutables en el índice:
 # git update-index --chmod=+x scripts/build_android.sh scripts/pgo.sh
 
-git commit -m "Guía legal para compilar SMM2 Recomp en Android"
+git commit -m "Publicar guía Android de SMM2 Recomp"
 git branch -M main
 
 # Creá el repo vacío en GitHub y después:
@@ -73,7 +74,7 @@ gh repo create <tu-usuario>/<tu-repo> --public --source=. --remote=origin --push
 
 1. GitHub → **New repository**.
 2. Nombre: `smm2-recomp-android-guia`.
-3. **Public** (la guía no tiene datos privados).
+3. Elige visibilidad según tu objetivo y revisa el contenido antes de publicar; una guía pública no queda libre de reclamos por contener material de terceros.
 4. **No** agregues README, `.gitignore` ni licencia desde la web (ya están).
 5. Subí los archivos o usá los comandos de arriba.
 
@@ -111,15 +112,16 @@ Si `grep` encuentra algo, **no lo subas**: revisá y borrá ese archivo.
 
 ## Topics sugeridos
 
-`smm2`, `super-mario-maker-2`, `android`, `recomp`, `vulkan`, `turnip`, `adrenotools`, `legal`, `build-guide`.
+`smm2`, `super-mario-maker-2`, `android`, `recomp`, `vulkan`, `turnip`, `adrenotools`, `build-guide`, `spanish`.
 
 ## Primer mensaje para la otra IA
 
-> Este repo es solo la guía. Cloná <https://github.com/smm2recomp/smm2recomp> (GPLv3), leé `PROMPT.md` y `MODS.md`, y guiame paso a paso para compilar SMM2 Recomp en Android con mi propio dump. Tengo mi copia legal. No te voy a pasar keys, firmware ni token por chat; el token de OCW lo escribo yo en el teléfono. No subas el APK, el juego, las keys, el firmware, el driver ni el token a ningún lado.
+> Este repo contiene una guía comunitaria, no archivos del juego. Cloná <https://github.com/smm2recomp/smm2recomp>, leé `PROMPT.md`, `MODS.md` y `LEGAL.md`, y guiame paso a paso con mis propios archivos. No te voy a pasar keys, firmware ni token por chat; no subas APKs, archivos del juego, claves, firmware, drivers ni credenciales. No emitas conclusiones jurídicas sobre mi situación.
 
-## Licencia
+## Licencias y avisos
 
-- Guía y scripts: **CC BY 4.0**.
-- `vulkan-shim/`: **GPLv3**.
-- Proyecto SMM2 Recomp: **GPLv3** (se clona aparte; no está en este repo).
+- Las licencias declaradas para contribuciones originales y sus límites están en `LICENSE.md`.
+- Los componentes externos mantienen sus licencias; verifica sus avisos antes de redistribuir.
+- El proyecto SMM2 Recomp tiene sus propios avisos en su repositorio; su licencia no cubre el juego ni los archivos generados.
+- Revisa `LEGAL.md`; esta guía no determina si un uso concreto es legal ni garantiza que no haya reclamos.
 - Nintendo: sin afiliación; sin código ni assets de Nintendo.

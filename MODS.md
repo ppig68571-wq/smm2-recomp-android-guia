@@ -353,8 +353,8 @@ Si un paso no da ≥10 %, **revertilo**. No acumules cambios sin medir.
 ## 9. Legal
 
 - El driver Turnip es software de terceros (Mesa); se descarga de su proyecto y **no se incluye** en este repo.
-- No distribuyas el APK, `libsmm2game.so`, el juego, las keys, el firmware ni el token de OCW.
-- Estos ajustes no contienen código ni assets de Nintendo.
-- Esta guía es **CC BY 4.0**; el shim es **GPLv3**.
+- Este repositorio no está destinado a alojar APK, `libsmm2game.so`, archivos del juego, keys, firmware, drivers binarios ni tokens.
+- Las licencias declaradas para contribuciones originales y sus límites están en `LICENSE.md`; verifica procedencia y dependencias.
+- No tomes esta guía como conclusión sobre la legalidad de extraer, compilar, usar online o redistribuir. Consulta `LEGAL.md`, avisos upstream y asesoría cualificada para una decisión concreta.
 
 

@@ -4,17 +4,17 @@
 
 ## Legal
 
-**¿Es legal?**
-Está pensado para que cada persona use su **copia legal** de *Super Mario Maker 2* + update 3.0.3 y compile el APK para sus propios dispositivos. Lo que **no** se debe hacer es distribuir el juego, las keys, el firmware, el APK ya compilado o el `libsmm2game.so` generado. Esto no es asesoría legal: verificá las leyes de tu país.
+**¿Esto garantiza que mi uso sea legal o que no me demanden?**
+No. No podemos determinarlo: depende de las leyes de tu jurisdicción, cómo obtuviste y procesaste los archivos, las licencias y las condiciones aplicables. Tener una copia propia no resuelve por sí solo esas preguntas. Lee [`LEGAL.md`](LEGAL.md), los avisos upstream y consulta a un profesional jurídico si necesitas una respuesta para tu caso.
 
 **¿Puedo compartir el APK?**
-No. El APK contiene código generado a partir del dump y el propio proyecto lo dice: *"it is for your own devices only, never to be shared"*. Podés compartir esta guía y el runtime/recompilador (GPLv3), no el APK.
+Esta guía no recomienda publicar ni enviar APKs o bibliotecas generadas desde archivos del juego. Revisa las instrucciones actuales del proyecto upstream y la ley aplicable antes de compartir cualquier resultado. La licencia GPL del código del proyecto no licencia el juego ni resuelve los derechos sobre contenido generado.
 
 **¿Puedo prestar mi cuenta de OCW o usar la de otra persona?**
-No. Cada persona crea **su** cuenta en <https://opencourse.world/> y usa **su** token. Compartir tokens es inseguro y va contra los términos del servicio.
+Trata el token como una credencial privada. Para saber si se permite compartir cuentas o tokens, consulta los términos actuales de OpenCourse World; esta guía no hace esa determinación.
 
 **¿Puedo vender el APK?**
-No. Sería distribuir material con copyright y credenciales; además, el proyecto es GPLv3 y el código generado del juego no se puede vender.
+No uses esta FAQ como autorización para vender o redistribuir un APK. La GPL del código del proyecto no concede derechos sobre el juego ni sobre los archivos generados. Verifica derechos, licencias y leyes con asesoramiento cualificado antes de cualquier distribución comercial.
 
 ## Compatibilidad
 
@@ -115,13 +115,13 @@ Revisá `backend=ocw`, `ocw-config.json` (dominio/token), TLS 1.2, `net_log=1`, 
 
 ## Repo
 
-**¿Puedo publicar esta guía?**
-Sí: es CC BY 4.0 y no contiene datos de Nintendo. Subí solo los archivos de la guía, el shim y los scripts.
+**¿Puedo publicar o reutilizar esta guía?**
+Consulta el alcance y las condiciones por archivo en [`LICENSE.md`](LICENSE.md). Esa declaración cubre solo contribuciones originales que el publicador pueda licenciar; materiales de terceros mantienen sus propios términos. Comprueba también las políticas de GitHub.
 
 **¿Puedo publicar el APK o el `libsmm2game.so`?**
-No. Son para tus dispositivos; distribuirlos es ilegal.
+El repositorio no está destinado a alojar esos binarios. Si estás considerando redistribuirlos, no asumas que esta guía o la GPL te autorizan: consulta las normas, condiciones y asesoramiento jurídico aplicables.
 
 **¿Puedo publicar el `vulkan-shim`?**
-Sí, es código propio (GPLv3) y no contiene datos del juego.
+La licencia indicada para las contribuciones originales del shim figura en [`LICENSE.md`](LICENSE.md). Verifica procedencia, dependencias y obligaciones de licencia antes de redistribuirlo.
 
 

@@ -4,10 +4,11 @@
 
 Marcá cada casilla antes de pasar al siguiente paso. Si algo falla, no sigas: mostrá el error completo.
 
-## 0. Legal
+## 0. Avisos de uso y privacidad
 
-- [ ] Tengo una **copia legal** de *Super Mario Maker 2* + update **3.0.3**.
-- [ ] Entiendo que el APK es para **mis** dispositivos y **no se comparte**.
+- [ ] Revisé [`LEGAL.md`](LEGAL.md) y los avisos actuales de SMM2 Recomp.
+- [ ] No interpreto que tener archivos propios garantice que extraer, compilar, instalar o usar resultados esté permitido en mi caso.
+- [ ] Mantendré archivos del juego, dumps, keys, firmware, tokens, APK y `libsmm2game.so` fuera de repositorios y chats.
 - [ ] No voy a subir el juego, ROMs, NSP/XCI, `prod.keys`, firmware, token de OCW, APK ni `libsmm2game.so`.
 - [ ] Cada persona que use la guía compila su propio dump y usa su propia cuenta de OCW.
 
@@ -173,6 +174,6 @@ adb shell cat /sdcard/Android/data/org.smcraft.smm2recomp/files/smm2mods.ini
 - [ ] Subís solo `.gitignore`, `README.md`, `PROMPT.md`, `MODS.md`, `OPENCODE_PROMPT.md`, `CHECKLIST.md`, `REPO.md`, `FAQ.md`, `LICENSE.md`, `vulkan-shim/`, `scripts/`.
 - [ ] **No** subís `private/`, `generated/`, `build/`, APK, `libsmm2game.so`, `prod.keys`, firmware, `ocw-config.json`, token, logs.
 - [ ] El repo no tiene datos de Nintendo.
-- [ ] La licencia está clara: guía CC BY 4.0; shim GPLv3; proyecto GPLv3.
+- [ ] Revisé el alcance y las licencias por archivo en `LICENSE.md`; no asumí que una licencia del código cubra material del juego o dependencias.
 
 
