@@ -97,6 +97,6 @@ const char *external = "/storage/emulated/0/Android/data/org.smcraft.smm2recomp/
 
 Si compilás con otro `RECOMP_ANDROID_PACKAGE`, cambiá esas dos rutas y volvé a compilar el shim.
 
-## Licencia
+## Licencia y procedencia
 
-GPLv3, igual que el proyecto. No contiene código ni assets de Nintendo.
+Consulta [`../LICENSE.md`](../LICENSE.md) para el alcance de la licencia declarada sobre contribuciones originales. Este shim usa interfaces de Vulkan y enlaza con AdrenoTools; Vulkan-Headers, AdrenoTools y las demás dependencias tienen sus propios avisos y licencias. Verifica su procedencia y condiciones antes de compilar o redistribuir. La licencia del shim no concede derechos sobre el juego ni sobre archivos generados.
