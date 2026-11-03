@@ -124,4 +124,4 @@ Si `grep` encuentra algo, **no lo subas**: revisá y borrá ese archivo.
 - Los componentes externos mantienen sus licencias; verifica sus avisos antes de redistribuir.
 - El proyecto SMM2 Recomp tiene sus propios avisos en su repositorio; su licencia no cubre el juego ni los archivos generados.
 - Revisa `LEGAL.md`; esta guía no determina si un uso concreto es legal ni garantiza que no haya reclamos.
-- Nintendo: sin afiliación; sin código ni assets de Nintendo.
+- Nintendo: este proyecto independiente no pretende incluir archivos del juego y no está afiliado ni respaldado por Nintendo. Consulta `LEGAL.md` para el alcance y los límites de esta declaración.

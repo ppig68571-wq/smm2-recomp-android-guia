@@ -39,7 +39,7 @@ No distribuyas APKs. No prometas 30 fps ni inventes resultados. Mantén los buil
 
 Pedí **rutas locales** y datos del dispositivo. No pidas valores de keys ni tokens.
 
-### 2.1 Confirmación legal
+### 2.1 Procedencia y límites
 
 Preguntá exactamente:
 
